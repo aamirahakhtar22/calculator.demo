@@ -1,0 +1,59 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.button {
+    width: 66px;
+    padding: 20px;
+    margin: 0 10px;
+    border: 2px rgb(255, 255, 255);
+    border-radius: 9px;;
+    cursor: pointer;
+    color: rgb(255, 252, 255);
+    grid-column: 4 / 5;
+    grid-row: 2 / span 4;
+    background: rgb(36, 34, 34);
+    
+    
+}
+.imp-but{
+    background: rgb(206, 38, 38);
+}
+.impp-but{
+    background: rgb(206, 164, 38);
+}
+
+.button:hover {
+    background: rgb(0, 0, 0);
+    
+}
+
+.row {
+     margin: 8px 0;
+}
+.row input{
+    font-size: 18px;
+    margin: 0;
+    padding: 9px 2px;
+    border: 2px solid rgb(255, 251, 251);
+    border-radius: 6px ;
+}
+.background-1 {
+    background: hsl(323, 87%, 30%);
+}
+.calculator {
+    height: 65px;
+    background: hsl(0, 0%, 0%);
+    border-radius: 6px ;
+    border: 2px solid rgb(240, 222, 224)
+    
+     
+}
+.cal {
+    font-size: larger;
+    color:rgb(255, 255, 255);
+}
+.cal2 {
+    font-size: larger;
+    color: rgb(248, 232, 240);
+}
